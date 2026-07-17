@@ -1,0 +1,14 @@
+{
+  "experiment_name": "Chuck failed-run diagnostic: Terra max with 32K output envelope",
+  "description": "Keeps the original prompt and max reasoning effort; only increases the total completion-token ceiling to test output-budget exhaustion.",
+  "max_tokens": 32768,
+  "request_timeout_seconds": 600,
+  "shuffle_seed": 20260715,
+  "models": [
+    {
+      "id": "openai/gpt-5.6-terra",
+      "family": "OpenAI",
+      "reasoning_efforts": ["max"]
+    }
+  ]
+}

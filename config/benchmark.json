@@ -1,0 +1,99 @@
+{
+  "experiment_name": "woodchuck-frontier-model-benchmark",
+  "description": "Current frontier text models, with every reasoning effort explicitly advertised by OpenRouter.",
+  "max_tokens": 16384,
+  "shuffle_seed": 20260715,
+  "request_timeout_seconds": 600,
+  "models": [
+    {
+      "id": "openai/gpt-5.6-luna",
+      "family": "OpenAI",
+      "reasoning_efforts": ["none", "low", "medium", "high", "xhigh", "max"]
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro",
+      "family": "OpenAI",
+      "reasoning_efforts": ["none", "low", "medium", "high", "xhigh", "max"]
+    },
+    {
+      "id": "openai/gpt-5.6-terra",
+      "family": "OpenAI",
+      "reasoning_efforts": ["none", "low", "medium", "high", "xhigh", "max"]
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "family": "OpenAI",
+      "reasoning_efforts": ["none", "low", "medium", "high", "xhigh", "max"]
+    },
+    {
+      "id": "openai/gpt-5.6-sol",
+      "family": "OpenAI",
+      "reasoning_efforts": ["none", "low", "medium", "high", "xhigh", "max"]
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "family": "OpenAI",
+      "reasoning_efforts": ["none", "low", "medium", "high", "xhigh", "max"]
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "family": "Anthropic",
+      "reasoning_efforts": ["low", "medium", "high", "xhigh", "max"]
+    },
+    {
+      "id": "anthropic/claude-fable-5",
+      "family": "Anthropic",
+      "reasoning_efforts": ["low", "medium", "high", "xhigh", "max"]
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "family": "Anthropic",
+      "reasoning_efforts": ["low", "medium", "high", "xhigh", "max"]
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "family": "Google",
+      "reasoning_efforts": ["low", "medium", "high"]
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "family": "Google",
+      "reasoning_efforts": ["minimal", "low", "medium", "high"]
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "family": "Google",
+      "reasoning_efforts": ["minimal", "low", "medium", "high"]
+    },
+    {
+      "id": "x-ai/grok-4.5",
+      "family": "xAI",
+      "reasoning_efforts": ["low", "medium", "high"]
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "family": "DeepSeek",
+      "reasoning_efforts": ["high", "xhigh"]
+    },
+    {
+      "id": "qwen/qwen3.7-max",
+      "family": "Qwen",
+      "reasoning_efforts": [null]
+    },
+    {
+      "id": "moonshotai/kimi-k2.6",
+      "family": "Moonshot AI",
+      "reasoning_efforts": [null]
+    },
+    {
+      "id": "z-ai/glm-5.2",
+      "family": "Z.ai",
+      "reasoning_efforts": ["high", "xhigh"]
+    },
+    {
+      "id": "minimax/minimax-m3",
+      "family": "MiniMax",
+      "reasoning_efforts": [null]
+    }
+  ]
+}

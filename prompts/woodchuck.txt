@@ -1,0 +1,1 @@
+You are an expert linguist, physicist, historian, mathematician, editor, and comedian. Explain how much wood a woodchuck would chuck if a woodchuck could chuck wood. Cite your assumptions, estimate uncertainty, provide SI and imperial units, write a haiku, summarize in pirate speech, then output JSON.

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Woodchuck — Frontier Model Benchmark</title>
+    <meta name="description" content="71 responses. 18 frontier models. One absurdly demanding woodchuck prompt, scored for compliance.">
+    <meta name="theme-color" content="#9a4b2e">
+    <meta property="og:title" content="Woodchuck — Frontier Model Benchmark">
+    <meta property="og:description" content="How much wood would a frontier model chuck? Explore 71 responses across 18 models.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ai-friday-labs.github.io/woodchuck/">
+    <link rel="canonical" href="https://ai-friday-labs.github.io/woodchuck/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to results</a>
+    <header class="container">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="https://aifri.day/" aria-label="AI Friday home">
+          <span>AI</span> <em>Friday</em><small>New Orleans</small>
+        </a>
+        <div class="nav-links">
+          <a href="#results">Results</a>
+          <a href="#method">Method</a>
+          <a href="https://github.com/AI-Friday-Labs/woodchuck">GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero container">
+        <div class="eyebrow">Experiment 001 · July 15, 2026</div>
+        <div class="hero-grid">
+          <div>
+            <h1>How much wood would a <em>frontier model</em> chuck?</h1>
+            <p class="lede">One deliberately overstuffed prompt. Every advertised reasoning effort. Seventy-one complete answers scored for structure, math, evidence, poetry, piracy, and the ability to stop talking at exactly the right time.</p>
+            <div class="hero-actions">
+              <a class="button" href="#results">Explore the results <span aria-hidden="true">↓</span></a>
+              <a class="text-link" href="results/evaluation.md">Read the full evaluation</a>
+            </div>
+          </div>
+          <aside class="answer-card" aria-label="Benchmark headline answer">
+            <div class="answer-label">Consensus-ish answer</div>
+            <div class="answer-number">700</div>
+            <div class="answer-unit">pounds of wood</div>
+            <p>About 318 kg, based on the old burrow-volume estimate. Scientifically shaky. Linguistically inevitable.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="metrics container" aria-label="Benchmark summary">
+        <article><strong>71</strong><span>complete responses</span></article>
+        <article><strong>18</strong><span>models tested</span></article>
+        <article><strong>92.4</strong><span>mean compliance</span></article>
+        <article><strong>$8.16</strong><span>core model cost</span></article>
+      </section>
+
+      <section class="findings container">
+        <div class="section-heading">
+          <div class="eyebrow">What happened</div>
+          <h2>The models mostly followed directions. The haiku did not.</h2>
+        </div>
+        <div class="finding-grid">
+          <article class="finding finding-featured">
+            <span class="finding-index">01</span>
+            <h3>Two perfect compliance scores</h3>
+            <p>GPT-5.6 Luna Pro at <code>xhigh</code> and GPT-5.6 Sol Pro at <code>high</code> checked every deterministic box.</p>
+          </article>
+          <article class="finding">
+            <span class="finding-index">02</span>
+            <h3>Structure was the easy part</h3>
+            <p>Every published response contained valid JSON. Sixty-nine of 71 put it at the end, where requested.</p>
+          </article>
+          <article class="finding">
+            <span class="finding-index">03</span>
+            <h3>Poetry remained undefeated</h3>
+            <p>Every model attempted a haiku. Only 19 responses passed the scorer’s 5-7-5 syllable heuristic.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="leaderboard container" id="results">
+        <div class="section-heading split-heading">
+          <div>
+            <div class="eyebrow">Model averages</div>
+            <h2>Compliance leaderboard</h2>
+          </div>
+          <p>Average score across every tested reasoning effort. Higher means the response followed more of the prompt, not that it was more correct.</p>
+        </div>
+        <div id="leaderboard-bars" class="bars" aria-live="polite">
+          <p class="loading">Loading model scores…</p>
+        </div>
+      </section>
+
+      <section class="explorer container" aria-labelledby="explorer-title">
+        <div class="section-heading split-heading">
+          <div>
+            <div class="eyebrow">All 71 responses</div>
+            <h2 id="explorer-title">Result explorer</h2>
+          </div>
+          <p>Filter by family or search for a model. Select a column heading to reorder the table.</p>
+        </div>
+        <div class="controls">
+          <label>
+            <span>Search</span>
+            <input id="search" type="search" placeholder="Model or effort…" autocomplete="off">
+          </label>
+          <label>
+            <span>Family</span>
+            <select id="family-filter"><option value="">All families</option></select>
+          </label>
+          <div class="result-count" id="result-count" aria-live="polite">71 results</div>
+        </div>
+        <div class="table-shell">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col"><button data-sort="model">Model</button></th>
+                <th scope="col"><button data-sort="effort">Effort</button></th>
+                <th scope="col" aria-sort="descending"><button data-sort="score">Score</button></th>
+                <th scope="col"><button data-sort="grade">Grade</button></th>
+                <th scope="col">Haiku</th>
+                <th scope="col"><span class="visually-hidden">Response</span></th>
+              </tr>
+            </thead>
+            <tbody id="results-body">
+              <tr><td colspan="6" class="loading">Loading responses…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="method container" id="method">
+        <div class="method-grid">
+          <div>
+            <div class="eyebrow">Method, briefly</div>
+            <h2>A compliance stress test, not a universal model ranking.</h2>
+          </div>
+          <div class="method-copy">
+            <p>The runner sent one byte-identical prompt to 18 models through OpenRouter, testing every reasoning effort each model advertised. Requests ran sequentially in a fixed shuffled order.</p>
+            <p>The scorer awarded 100 deterministic points across JSON structure, quantitative work, assumptions and evidence, creative requirements, and breadth. Successful visible answers are public; raw streams and provider metadata are not.</p>
+            <p>One sample per setting cannot establish stable latency or answer quality. Factual correctness and citation quality require a separate blinded review.</p>
+            <div class="method-links">
+              <a href="https://github.com/AI-Friday-Labs/woodchuck/blob/main/METHODOLOGY.md">Full methodology</a>
+              <a href="results/scores.csv">Download scores (CSV)</a>
+              <a href="results/stats.md">Run accounting</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p>Built in New Orleans by <a href="https://aifri.day/">AI Friday</a>.</p>
+      <p>Source and data on <a href="https://github.com/AI-Friday-Labs/woodchuck">GitHub</a>.</p>
+    </footer>
+    <noscript><p class="noscript">JavaScript is needed for the interactive results. The complete reports remain available in <a href="results/evaluation.md">the evaluation</a>.</p></noscript>
+  </body>
+</html>

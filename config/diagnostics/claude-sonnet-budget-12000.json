@@ -1,0 +1,22 @@
+{
+  "experiment_name": "Chuck failed-run recovery: Claude Sonnet with explicit reasoning budget",
+  "description": "Keeps the original prompt and total completion ceiling, but caps Anthropic reasoning at 12,000 tokens to reserve 4,384 tokens for the answer.",
+  "max_tokens": 16384,
+  "request_timeout_seconds": 600,
+  "shuffle_seed": 20260715,
+  "models": [
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "family": "Anthropic",
+      "runs": [
+        {
+          "label": "budget-12000",
+          "reasoning": {
+            "max_tokens": 12000,
+            "exclude": false
+          }
+        }
+      ]
+    }
+  ]
+}

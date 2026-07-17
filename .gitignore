@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+
+# Raw benchmark artifacts can contain request metadata and are very large.
+runs/
+
+# Local site previews.
+_site/
+.gstack/
