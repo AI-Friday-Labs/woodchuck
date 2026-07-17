@@ -1,4 +1,4 @@
-const state = { rows: [], query: "", family: "", sort: "score", direction: -1 };
+const state = { rows: [], showcase: [], query: "", family: "", sort: "score", direction: -1 };
 
 function parseCsv(text) {
   const records = [];
@@ -47,6 +47,71 @@ function renderLeaderboard() {
   }));
 }
 
+function carouselCard(item, type) {
+  const article = document.createElement("article");
+  article.className = "carousel-card";
+  const meta = document.createElement("div");
+  meta.className = "carousel-meta";
+  const model = document.createElement("span");
+  model.className = "carousel-model";
+  model.title = item.model;
+  model.textContent = item.model;
+  const effort = document.createElement("span");
+  effort.textContent = item.effort;
+  meta.append(model, effort);
+
+  const content = document.createElement(type === "haiku" ? "div" : "blockquote");
+  content.className = type === "haiku" ? "haiku-copy" : "pirate-copy";
+  if (type === "haiku") {
+    item.haiku.forEach(line => {
+      const span = document.createElement("span");
+      span.textContent = line;
+      content.append(span);
+    });
+  } else {
+    content.textContent = `“${item.pirate}”`;
+  }
+
+  const footer = document.createElement("div");
+  footer.className = "carousel-card-footer";
+  const score = document.createElement("span");
+  score.textContent = `Score ${item.score}`;
+  const link = document.createElement("a");
+  link.href = `results/${item.path}`;
+  link.textContent = "Full answer →";
+  footer.append(score, link);
+  article.append(meta, content, footer);
+  return article;
+}
+
+function updateCarouselPosition(type) {
+  const track = document.querySelector(`#${type}-carousel`);
+  const cards = [...track.querySelectorAll(".carousel-card")];
+  if (!cards.length) return;
+  const nearest = cards.reduce((best, card, index) => {
+    const distance = Math.abs(card.offsetLeft - track.scrollLeft);
+    return distance < best.distance ? { index, distance } : best;
+  }, { index: 0, distance: Infinity });
+  document.querySelector(`#${type}-position`).textContent = `${nearest.index + 1} / ${cards.length}`;
+}
+
+function renderCarousels() {
+  ["pirate", "haiku"].forEach(type => {
+    const track = document.querySelector(`#${type}-carousel`);
+    track.replaceChildren(...state.showcase.map(item => carouselCard(item, type)));
+    track.addEventListener("scroll", () => updateCarouselPosition(type), { passive: true });
+  });
+  document.querySelectorAll(".carousel-button").forEach(button => {
+    button.addEventListener("click", () => {
+      const type = button.dataset.carousel;
+      const track = document.querySelector(`#${type}-carousel`);
+      const card = track.querySelector(".carousel-card");
+      const amount = (card?.offsetWidth || track.clientWidth) + 16;
+      track.scrollBy({ left: amount * Number(button.dataset.direction), behavior: "smooth" });
+    });
+  });
+}
+
 function filteredRows() {
   const query = state.query.toLowerCase();
   return state.rows.filter(row =>
@@ -93,9 +158,13 @@ function setSort(button) {
 
 async function init() {
   try {
-    const response = await fetch("results/scores.csv");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.rows = parseCsv(await response.text());
+    const [scoresResponse, showcaseResponse] = await Promise.all([
+      fetch("results/scores.csv"),
+      fetch("results/showcase.json")
+    ]);
+    if (!scoresResponse.ok || !showcaseResponse.ok) throw new Error(`Results could not be loaded`);
+    state.rows = parseCsv(await scoresResponse.text());
+    state.showcase = await showcaseResponse.json();
     const familyFilter = document.querySelector("#family-filter");
     [...new Set(state.rows.map(row => row.family))].sort().forEach(family => {
       const option = document.createElement("option");
@@ -107,11 +176,13 @@ async function init() {
     familyFilter.addEventListener("change", event => { state.family = event.target.value; renderTable(); });
     document.querySelectorAll("th button").forEach(button => button.addEventListener("click", () => setSort(button)));
     renderLeaderboard();
+    renderCarousels();
     renderTable();
   } catch (error) {
     const message = "Results could not be loaded. Open the full evaluation instead.";
     document.querySelector("#leaderboard-bars").innerHTML = `<p class="empty">${message}</p>`;
     document.querySelector("#results-body").innerHTML = `<tr><td colspan="6" class="empty">${message}</td></tr>`;
+    document.querySelectorAll(".carousel-track").forEach(track => { track.innerHTML = `<p class="empty">${message}</p>`; });
     console.error(error);
   }
 }

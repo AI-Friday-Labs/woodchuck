@@ -58,6 +58,7 @@ The runner executes requests sequentially. Order is shuffled with a fixed seed, 
 ```sh
 python3 package_successes.py
 python3 score_results.py
+python3 scripts/build_showcase.py
 ```
 
 ## Public-data boundary

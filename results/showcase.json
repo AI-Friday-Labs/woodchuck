@@ -1,0 +1,854 @@
+[
+  {
+    "model": "anthropic/claude-fable-5",
+    "effort": "high",
+    "score": 91,
+    "path": "responses/anthropic/claude-fable-5/high.md",
+    "haiku": [
+      "Small marmot digging —",
+      "seven hundred pounds of earth;",
+      "wood remains unchucked."
+    ],
+    "pirate": "Arrr, 700 lb o' timber, give or take a rum barrel!"
+  },
+  {
+    "model": "anthropic/claude-fable-5",
+    "effort": "low",
+    "score": 94,
+    "path": "responses/anthropic/claude-fable-5/low.md",
+    "haiku": [
+      "Groundhog dreams of pine —",
+      "seven hundred pounds of 'if,'",
+      "dirt flies anyway."
+    ],
+    "pirate": "Arrr! Nigh 700 pounds o' timber, give or take a barnacle's worth o' doubt!"
+  },
+  {
+    "model": "anthropic/claude-fable-5",
+    "effort": "max",
+    "score": 94,
+    "path": "responses/anthropic/claude-fable-5/max.md",
+    "haiku": [
+      "If teeth met timber —",
+      "three hundred eighteen kilos;",
+      "the meadow whistles."
+    ],
+    "pirate": "Arrr! If yon whistle-pig could heave timber, she'd chuck nigh on 318 kilos — seven hundred pound o' lumber — in the diggin' of one den, give or take a keg's worth o' doubt. Yo ho!"
+  },
+  {
+    "model": "anthropic/claude-fable-5",
+    "effort": "medium",
+    "score": 94,
+    "path": "responses/anthropic/claude-fable-5/medium.md",
+    "haiku": [
+      "Groundhog eyes the log —",
+      "seven hundred pounds of dreams,",
+      "if only it could."
+    ],
+    "pirate": "Arrr, 'bout 700 pounds o' timber, give or take, though the beastie never chucked a splinter!"
+  },
+  {
+    "model": "anthropic/claude-fable-5",
+    "effort": "xhigh",
+    "score": 94,
+    "path": "responses/anthropic/claude-fable-5/xhigh.md",
+    "haiku": [
+      "Stout marmot ponders —",
+      "seven hundred pounds of pine.",
+      "Dirt was practice, friend."
+    ],
+    "pirate": "Arr! The furry landlubber'd chuck nigh on 360 kilos — 800 pounds o' pine — same as the dirt she shovels fer her burrow, give or take a third. Now swab the deck!"
+  },
+  {
+    "model": "anthropic/claude-opus-4.8",
+    "effort": "high",
+    "score": 90,
+    "path": "responses/anthropic/claude-opus-4.8/high.md",
+    "haiku": [
+      "Marmot dreams of oak—",
+      "Seven hundred pounds of maybe,",
+      "Ground stays undisturbed."
+    ],
+    "pirate": "> Arrr! If yon burrowin' beastie could heave timber like it heaves dirt, she'd chuck near seven hundred pound o' wood, give or take a plank or three! But mark me words, matey—the scurvy creature chucks naught, on account o' havin' no arms fit fer the throwin'. A fine riddle to shiver yer timbers! ---"
+  },
+  {
+    "model": "anthropic/claude-opus-4.8",
+    "effort": "low",
+    "score": 93,
+    "path": "responses/anthropic/claude-opus-4.8/low.md",
+    "haiku": [
+      "Burrow-born muscle—",
+      "if teeth could hurl the forest,",
+      "a quarter-ton falls."
+    ],
+    "pirate": "Arr! If that scurvy land-marmot could heave timber like it digs its dirt-hole, it'd sling near two-hundred-forty-five stone-weights (that be 'bout five hundred forty pounds, ye landlubbers) o' good oak—give or take a barrel, since nobody rightly knows what \"chuckin'\" even means. Yo ho! ---"
+  },
+  {
+    "model": "anthropic/claude-opus-4.8",
+    "effort": "max",
+    "score": 91,
+    "path": "responses/anthropic/claude-opus-4.8/max.md",
+    "haiku": [
+      "Marmot eyes the log",
+      "physics says six hundred pounds",
+      "he digs a hole instead"
+    ],
+    "pirate": "Arr! She'd chuck near 640 pound o' wood a day, give or take a heap. The old salts reckon 700. Close enough!"
+  },
+  {
+    "model": "anthropic/claude-opus-4.8",
+    "effort": "medium",
+    "score": 93,
+    "path": "responses/anthropic/claude-opus-4.8/medium.md",
+    "haiku": [
+      "Groundhog dreams of oak—",
+      "earth-paws itch for splintered logs,",
+      "chucks the void, content."
+    ],
+    "pirate": "> Arr! If yon land-marmot could heave timber like it heaves dirt, she'd sling near seven hundred pound o' wood afore grog o'clock — give or take, ye scurvy dogs, for none has ever seen the beast do it, an' none ever shall! Yo ho. ---"
+  },
+  {
+    "model": "anthropic/claude-opus-4.8",
+    "effort": "xhigh",
+    "score": 88,
+    "path": "responses/anthropic/claude-opus-4.8/xhigh.md",
+    "haiku": [
+      "Furred surveyor digs",
+      "a cord of maybe-timber",
+      "flung at the county"
+    ],
+    "pirate": "Arrr, near seven hunnerd pound o' timber, give or take a swig!"
+  },
+  {
+    "model": "anthropic/claude-sonnet-5",
+    "effort": "high",
+    "score": 94,
+    "path": "responses/anthropic/claude-sonnet-5/high.md",
+    "haiku": [
+      "Small claws, big burrow -",
+      "dirt becomes an oak dream, thrown",
+      "into make-believe."
+    ],
+    "pirate": "If a woodchuck could chuck wood like it chucks dirt, it'd fling about 700 lb on a good day, but truth be told it chucks no wood at all, only dirt and dreams."
+  },
+  {
+    "model": "anthropic/claude-sonnet-5",
+    "effort": "low",
+    "score": 90,
+    "path": "responses/anthropic/claude-sonnet-5/low.md",
+    "haiku": [
+      "Burrow-strong small beast,",
+      "wood it cannot truly chuck—",
+      "tongue-twister persists."
+    ],
+    "pirate": "If a woodchuck could chuck wood like she chucks dirt, she'd chuck about forty pounds a day - but she can't, it's all a tall tale, savvy?"
+  },
+  {
+    "model": "anthropic/claude-sonnet-5",
+    "effort": "max",
+    "score": 94,
+    "path": "responses/anthropic/claude-sonnet-5/max.md",
+    "haiku": [
+      "Woodchuck digs, not throws",
+      "Seven hundred pounds of pine",
+      "Just a tall dirt tale"
+    ],
+    "pirate": "Arrr, a woodchuck be chuckin' near seven hundred pounds (320 kilograms) o' wood a day, in legend only, for no woodchuck ever chucks a single splinter, ye scallywag!"
+  },
+  {
+    "model": "anthropic/claude-sonnet-5",
+    "effort": "medium",
+    "score": 90,
+    "path": "responses/anthropic/claude-sonnet-5/medium.md",
+    "haiku": [
+      "Burrow built from logs—",
+      "Woodchuck's jaw, indifferent to",
+      "puns it never asked for"
+    ],
+    "pirate": "Near two hundred pound o' timber, give or take a hull's worth, arrr."
+  },
+  {
+    "model": "anthropic/claude-sonnet-5",
+    "effort": "xhigh",
+    "score": 97,
+    "path": "responses/anthropic/claude-sonnet-5/xhigh.md",
+    "haiku": [
+      "Small rodent pauses—",
+      "wood stacked high, unthrown, unchucked;",
+      "dirt flies from its den."
+    ],
+    "pirate": "If that burrow-beast could heave timber like it heaves dirt, 'twould chuck about 700 lbs a day, give or take, though no woodchuck's ever truly chucked a plank!"
+  },
+  {
+    "model": "deepseek/deepseek-v4-pro",
+    "effort": "high",
+    "score": 93,
+    "path": "responses/deepseek/deepseek-v4-pro/high.md",
+    "haiku": [
+      "Burrower’s burden",
+      "Seven tonnes of timber tossed—",
+      "but only in dreams."
+    ],
+    "pirate": "Arr, a woodchuck be chuckin’ nigh on seven tonnes o’ wood a day, if the scurvy beast had a mind to! That be a heap o’ timber—enough to keep the ship’s carpenter busy for a fortnight, give or take a gale. But mark me, ’tis all fancy, for the varmint would sooner dig for treasure than toss firewood."
+  },
+  {
+    "model": "deepseek/deepseek-v4-pro",
+    "effort": "xhigh",
+    "score": 89,
+    "path": "responses/deepseek/deepseek-v4-pro/xhigh.md",
+    "haiku": [
+      "A groundhog heaves oak—",
+      "Four cubic meters by dusk,",
+      "Then asks for a raise."
+    ],
+    "pirate": "Arrr! A woodchuck'd chuck near four an' a half cubic fathoms o' timber weighin' three an' a half tons in a day, give or take a gale o' thirty-two percent. Enough to mend the poop deck thrice over, says I!"
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "effort": "high",
+    "score": 89,
+    "path": "responses/google/gemini-3.1-flash-lite/high.md",
+    "haiku": [
+      "Digging holes in dirt,",
+      "He cannot toss branch or log,",
+      "Nature’s joke on us."
+    ],
+    "pirate": "\"Arrgh, ye scallywag! If ye forced a furry beastie to toss timber instead o' tunnellin', that scalawag would heave about seven hundred pounds o' wood 'fore findin' a plank to nap on. Now hand over the rum, and quit askin' 'bout rodents!\" ---"
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "effort": "low",
+    "score": 87,
+    "path": "responses/google/gemini-3.1-flash-lite/low.md",
+    "haiku": [
+      "Rodent seeks burrow,",
+      "Moving dirt, not logs of pine,",
+      "Tongue tied, math is wrong."
+    ],
+    "pirate": "Arr, ye scurvy dog! If that furry land-whale had the mind for lumber, he’d be haulin’ seven hundred kilos o' timber—that be fifteen hundred pounds o' planks! But he’s a greedy thief, not a carpenter! Har har!"
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "effort": "medium",
+    "score": 91,
+    "path": "responses/google/gemini-3.1-flash-lite/medium.md",
+    "haiku": [
+      "Claws made for the dirt,",
+      "If he could toss timber logs,",
+      "He would go on strike."
+    ],
+    "pirate": "He be diggin' dirt, not throwin' timber, ye scurvy dog!"
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "effort": "minimal",
+    "score": 85,
+    "path": "responses/google/gemini-3.1-flash-lite/minimal.md",
+    "haiku": [
+      "Teeth carved out of steel,",
+      "Moving logs with fur-clad spite,",
+      "Forest turned to dust."
+    ],
+    "pirate": "He'd heave five foot of timber, savvy?"
+  },
+  {
+    "model": "google/gemini-3.1-pro-preview",
+    "effort": "high",
+    "score": 90,
+    "path": "responses/google/gemini-3.1-pro-preview/high.md",
+    "haiku": [
+      "Furry marmot heaves,",
+      "Eight hundred pounds of dry pine,",
+      "Flying through the air."
+    ],
+    "pirate": "Yarrr! Th' furry beastie'd chuck 875 pounds (396 kg) o' dry pine if he built his hide hole outta timber instead o' dirt, give or take a 22% margin o' error for wet wood! Savvy?"
+  },
+  {
+    "model": "google/gemini-3.1-pro-preview",
+    "effort": "low",
+    "score": 89,
+    "path": "responses/google/gemini-3.1-pro-preview/low.md",
+    "haiku": [
+      "Furry little beast,",
+      "Tossing timber all day long,",
+      "Sharp teeth, weary paws."
+    ],
+    "pirate": "Yarrr, mateys! If ye took a furry little landlubber of a groundhog and made him heave planks instead o' dirt, the wee beastie would toss about two-hundred and forty-five pounds o' prime oak before his shift was done! Shiver me timbers, that's enough wood to patch the hull of the Jolly Roger!"
+  },
+  {
+    "model": "google/gemini-3.1-pro-preview",
+    "effort": "medium",
+    "score": 88,
+    "path": "responses/google/gemini-3.1-pro-preview/medium.md",
+    "haiku": [
+      "Furry digging beast,",
+      "Throws seven hundred kilos,",
+      "Science is absurd."
+    ],
+    "pirate": "Yarrr, listen close, ye scurvy dogs! If that land-beaver had the magic in its paws to heave timber, it’d be tossin' nigh on fifteen hundred pounds o' prime oak overboard! Give or take a bit o' variance, lest the captain’s math be adrift. Shiver me timbers, that’s a lot o' wood!"
+  },
+  {
+    "model": "google/gemini-3.5-flash",
+    "effort": "high",
+    "score": 90,
+    "path": "responses/google/gemini-3.5-flash/high.md",
+    "haiku": [
+      "If sharp claws chucked wood,",
+      "Seven hundred pounds of oak",
+      "Fly through mountain air."
+    ],
+    "pirate": "Ahoy, ye scurvy dogs! If that fat, furry land-lubbin' bilge-rat of a groundhog could heave timber like a true privateer, he'd toss nigh on seven hundred pounds of fine red oak before the sun dips below the yardarm! Or mayhap twice that much if he's runnin' from the Royal Navy! Drink up, yo ho!"
+  },
+  {
+    "model": "google/gemini-3.5-flash",
+    "effort": "low",
+    "score": 90,
+    "path": "responses/google/gemini-3.5-flash/low.md",
+    "haiku": [
+      "Chucking through the day,",
+      "Seven hundred pounds of birch,",
+      "Furry beast is tired."
+    ],
+    "pirate": "Arrr! If that furry little bilge-rat could hoist timber, he'd be chuckin' a hearty 700 pounds of oak a day, by Davy Jones' locker! Give or take a wee ship's weight of a hundred pounds of splinters, or I'll feed 'im to the sharks!"
+  },
+  {
+    "model": "google/gemini-3.5-flash",
+    "effort": "medium",
+    "score": 94,
+    "path": "responses/google/gemini-3.5-flash/medium.md",
+    "haiku": [
+      "If a marmot could,",
+      "Seven hundred pounds of pine",
+      "Fly into the wind."
+    ],
+    "pirate": "Ahoy, ye scurvy dogs! If that furry, land-lubbin' ground-pig had the claws to hoist timber, he’d heave nigh on seven hundred pounds of seasoned oak by the setting of the sun! A fine plunder of kindlin' to warm the deck, by Blackbeard's ghost! But alas, the wee beastie has no thumbs, so he chucks only dirt and dreams. Arrr!"
+  },
+  {
+    "model": "google/gemini-3.5-flash",
+    "effort": "minimal",
+    "score": 88,
+    "path": "responses/google/gemini-3.5-flash/minimal.md",
+    "haiku": [
+      "Teeth like yellow chisels,",
+      "Seven hundred pounds of oak,",
+      "Sleeps all winter long."
+    ],
+    "pirate": "Ahoy, ye scurvy dogs! If a furry land-lubbin’ bilge-rat—what the fancy scribes call a \"woodchuck\"—had the mind and the claws to flingtimber, he’d hoist and heave nigh on 716 pounds o' fine oak a day! That’s more than a third of a ton, ye hearty crew! Enough to build a modest dinghy or fuel the galley fire for a voyage to the Indies. But alas, the lazy beast prefers to snooze in the dirt like a drunken cabin boy. ---"
+  },
+  {
+    "model": "minimax/minimax-m3",
+    "effort": "default",
+    "score": 90,
+    "path": "responses/minimax/minimax-m3/default.md",
+    "haiku": [
+      "Bursts the burrow's lip —",
+      "Groundhog, not wood-hoarder:",
+      "Seven hundred pounds."
+    ],
+    "pirate": "Arrr! Some seven hundred pounds o' wood a day, matey — though the wee beastie be diggin', not chuckin'! Yo ho ho!"
+  },
+  {
+    "model": "moonshotai/kimi-k2.6",
+    "effort": "default",
+    "score": 90,
+    "path": "responses/moonshotai/kimi-k2.6/default.md",
+    "haiku": [
+      "Woodchuck would chuck wood.",
+      "Burrow's weight in pine logs thrown:",
+      "Seven hundred pounds."
+    ],
+    "pirate": "Arrr... the whistle-pig would shift seven hundred pounds o' timber, give or take two hundred!"
+  },
+  {
+    "model": "openai/gpt-5.6-luna-pro",
+    "effort": "high",
+    "score": 88,
+    "path": "responses/openai/gpt-5.6-luna-pro/high.md",
+    "haiku": [
+      "Woodchuck shifts the earth",
+      "Seven hundred pounds of loam",
+      "Timber waits below"
+    ],
+    "pirate": "Arrr, the old tale says a woodchuck would chuck about 700 pounds o' dirt—roughly 318 kilos—not actual timber. Reckon the true haul could range from 300 to 1,250 pounds, matey."
+  },
+  {
+    "model": "openai/gpt-5.6-luna-pro",
+    "effort": "low",
+    "score": 90,
+    "path": "responses/openai/gpt-5.6-luna-pro/low.md",
+    "haiku": [
+      "Chuck logs through the bright day",
+      "Small paws push the forest floor",
+      "How much? All it can"
+    ],
+    "pirate": "Arrr, a woodchuck would chuck as much timber as its wee muscles could manage—roughly 700 pounds, or 318 kilos, give or take a mighty heap. But there be no proper experiment, matey!"
+  },
+  {
+    "model": "openai/gpt-5.6-luna-pro",
+    "effort": "max",
+    "score": 94,
+    "path": "responses/openai/gpt-5.6-luna-pro/max.md",
+    "haiku": [
+      "Groundhog eyes the pile",
+      "If the groundhog could chuck wood",
+      "Burrows dream of oak"
+    ],
+    "pirate": "Arrr, the honest tally be zero for real wood-chucking. But in the old yarn, a woodchuck could haul about 700 pounds, or 318 kilograms, over a burrow-building adventure—not toss it all in one mighty fling. That be a rough estimate, matey."
+  },
+  {
+    "model": "openai/gpt-5.6-luna-pro",
+    "effort": "medium",
+    "score": 93,
+    "path": "responses/openai/gpt-5.6-luna-pro/medium.md",
+    "haiku": [
+      "Woodchuck lifts dry logs",
+      "Small paws labor through the day",
+      "Forest dust settles"
+    ],
+    "pirate": "Arrr, by me rough reckonin', a woodchuck could chuck about 700 pounds, or 318 kilos, if it had the strength, tools, and unnatural ambition to do so. The true answer be highly uncertain, matey, since real woodchucks mostly dig rather than heave timber."
+  },
+  {
+    "model": "openai/gpt-5.6-luna-pro",
+    "effort": "none",
+    "score": 97,
+    "path": "responses/openai/gpt-5.6-luna-pro/none.md",
+    "haiku": [
+      "Small paws move the branch",
+      "Wood flies, but legends fly more",
+      "Groundhog rests at dusk"
+    ],
+    "pirate": "Arrr, a woodchuck’d chuck what its wee muscles and the available timber allowed—perhaps a pound or two in a hard day, not the legendary seven hundred pounds!"
+  },
+  {
+    "model": "openai/gpt-5.6-luna-pro",
+    "effort": "xhigh",
+    "score": 100,
+    "path": "responses/openai/gpt-5.6-luna-pro/xhigh.md",
+    "haiku": [
+      "Groundhog heaves a load",
+      "Small paws push the heavy logs",
+      "Folklore weighs the most"
+    ],
+    "pirate": "Arrr, the customary reck'nin' be about 700 pounds o' timber—roughly 318 kilos—but the fog o' uncertainty runs from 300 to 1,250 pounds. Real woodchucks haul dirt, not logs!"
+  },
+  {
+    "model": "openai/gpt-5.6-luna",
+    "effort": "high",
+    "score": 92,
+    "path": "responses/openai/gpt-5.6-luna/high.md",
+    "haiku": [
+      "Groundhog digs the earth",
+      "Wood waits beneath the bright moon",
+      "Seven hundred pounds"
+    ],
+    "pirate": "Arrr, the old reckoning be about 700 pounds, or roughly 318 kilos, matey—but 'tis a humorous estimate based on burrow-diggin', not a measured haul of timber."
+  },
+  {
+    "model": "openai/gpt-5.6-luna",
+    "effort": "low",
+    "score": 97,
+    "path": "responses/openai/gpt-5.6-luna/low.md",
+    "haiku": [
+      "Woodchuck heaves the logs",
+      "Wood flies through summer forest",
+      "Burrows sleep in peace"
+    ],
+    "pirate": "Arrr, if a woodchuck could chuck wood, it’d chuck about 700 pounds, or 318 kilos—but that be a tall tale, matey, with uncertainty wider than the seven seas!"
+  },
+  {
+    "model": "openai/gpt-5.6-luna",
+    "effort": "max",
+    "score": 98,
+    "path": "responses/openai/gpt-5.6-luna/max.md",
+    "haiku": [
+      "Groundhog weighs the wood",
+      "Small paws carry the timber",
+      "No logs leave the den"
+    ],
+    "pirate": "Arrr, the real critter chucks no wood; but in the fanciful tally, reckon on about 700 lbm, or 318 kg, give or take a few hundred pounds, matey."
+  },
+  {
+    "model": "openai/gpt-5.6-luna",
+    "effort": "medium",
+    "score": 98,
+    "path": "responses/openai/gpt-5.6-luna/medium.md",
+    "haiku": [
+      "Wood flies through the air",
+      "The woodchuck heaves the timber",
+      "More than legend claims"
+    ],
+    "pirate": "Arrr, if a woodchuck could chuck wood, it might heave about 700 pounds, or 318 kilos—give or take a mighty heap. But truth be told, the beast chucks dirt, not lumber!"
+  },
+  {
+    "model": "openai/gpt-5.6-luna",
+    "effort": "none",
+    "score": 89,
+    "path": "responses/openai/gpt-5.6-luna/none.md",
+    "haiku": [
+      "Wood beneath bright paws",
+      "Groundhog weighs the stubborn log",
+      "Riddle rolls onward"
+    ],
+    "pirate": "Arrr, by the old rhyme, the chuck would heave about 700 pounds—318 kilos, give or take a mighty lot. In truth, a groundhog digs dirt, not timber, so the real booty be far less and uncertain!"
+  },
+  {
+    "model": "openai/gpt-5.6-luna",
+    "effort": "xhigh",
+    "score": 94,
+    "path": "responses/openai/gpt-5.6-luna/xhigh.md",
+    "haiku": [
+      "Woodchuck lifts the load",
+      "Three hundred kilos now rise",
+      "Burrow dreams take wing"
+    ],
+    "pirate": "Arrr! Give the groundhog a knack for timber, and our burrow-sized reckonin' says about 700 pounds, or 320 kilos, with a rough spread o' 260 to 1,600 pounds. 'Tis cumulative hauling, not one mighty toss, matey!"
+  },
+  {
+    "model": "openai/gpt-5.6-sol-pro",
+    "effort": "high",
+    "score": 100,
+    "path": "responses/openai/gpt-5.6-sol-pro/high.md",
+    "haiku": [
+      "Groundhog lifts the logs",
+      "Burrow sums weigh all the wood",
+      "Spring laughs underground"
+    ],
+    "pirate": "Arrr! If the wee groundhog swapped burrow dirt for timber, it would chuck about 320 kilograms, or 700 pounds, per burrow-making voyage."
+  },
+  {
+    "model": "openai/gpt-5.6-sol-pro",
+    "effort": "low",
+    "score": 97,
+    "path": "responses/openai/gpt-5.6-sol-pro/low.md",
+    "haiku": [
+      "Woodchuck weighs the logs",
+      "Seven hundred pounds take flight",
+      "Scientists take notes"
+    ],
+    "pirate": "Arrr, about 700 pounds, if the beast moved timber as it moves dirt."
+  },
+  {
+    "model": "openai/gpt-5.6-sol-pro",
+    "effort": "medium",
+    "score": 97,
+    "path": "responses/openai/gpt-5.6-sol-pro/medium.md",
+    "haiku": [
+      "Woodchuck weighs the logs",
+      "Burrow dreams become timber",
+      "Seven hundred pounds"
+    ],
+    "pirate": "Arrr, about 700 pounds, or 318 kilograms, give or take half."
+  },
+  {
+    "model": "openai/gpt-5.6-sol-pro",
+    "effort": "none",
+    "score": 90,
+    "path": "responses/openai/gpt-5.6-sol-pro/none.md",
+    "haiku": [
+      "Groundhog meets timber",
+      "Seven hundred pounds take flight",
+      "Forests file complaints"
+    ],
+    "pirate": "Arrr, about 700 pounds, or 320 kilograms, give or take a shipload."
+  },
+  {
+    "model": "openai/gpt-5.6-sol-pro",
+    "effort": "xhigh",
+    "score": 95,
+    "path": "responses/openai/gpt-5.6-sol-pro/xhigh.md",
+    "haiku": [
+      "Groundhog dreams of logs",
+      "Seven hundred pounds take flight",
+      "Burrow laughs below"
+    ],
+    "pirate": "Arrr, by the burrow reckoning, about 700 pounds or 318 kilograms, give or take an entire forest."
+  },
+  {
+    "model": "openai/gpt-5.6-sol",
+    "effort": "high",
+    "score": 91,
+    "path": "responses/openai/gpt-5.6-sol/high.md",
+    "haiku": [
+      "Woodchuck dreams of logs",
+      "Burrow math weighs the timber",
+      "No wood leaves the ground"
+    ],
+    "pirate": "Arrr, about 300 kilograms or 660 pounds per burrow, if the beast could chuck timber at all."
+  },
+  {
+    "model": "openai/gpt-5.6-sol",
+    "effort": "low",
+    "score": 94,
+    "path": "responses/openai/gpt-5.6-sol/low.md",
+    "haiku": [
+      "Woodchuck tosses wood",
+      "Through the bright and windy grove",
+      "Seven hundred pounds"
+    ],
+    "pirate": "Arrr, about 700 pounds, if timber be treated like burrow dirt."
+  },
+  {
+    "model": "openai/gpt-5.6-sol",
+    "effort": "max",
+    "score": 95,
+    "path": "responses/openai/gpt-5.6-sol/max.md",
+    "haiku": [
+      "Groundhog eyes the grove",
+      "Wood flies out of the dark den",
+      "Seven hundred pounds"
+    ],
+    "pirate": "Arrr, one burrow's worth comes to about 320 kilos, or 700 pounds, but without a clock there be no unique tally."
+  },
+  {
+    "model": "openai/gpt-5.6-sol",
+    "effort": "medium",
+    "score": 86,
+    "path": "responses/openai/gpt-5.6-sol/medium.md",
+    "haiku": [
+      "Woodchuck weighs the wood",
+      "Burrow math sends chips flying",
+      "Hundred kilos tossed"
+    ],
+    "pirate": "Arrr, if the beastie could chuck timber as handily as it shifts earth, she’d heave about 220 pounds, give or take a cargo hold. In the real world, though, the furry lubber chucks essentially no wood at all."
+  },
+  {
+    "model": "openai/gpt-5.6-sol",
+    "effort": "none",
+    "score": 84,
+    "path": "responses/openai/gpt-5.6-sol/none.md",
+    "haiku": [
+      "Woodchuck paws at earth",
+      "Seven hundred pounds take flight—",
+      "Forester protests"
+    ],
+    "pirate": "Arrr, if the wee burrowin’ beast could chuck timber as it shifts soil, it might move about 700 pounds—320 kilograms—give or take a few hundred pounds. But ask it to throw logs, and ye’ll get mostly splinters and disappointment."
+  },
+  {
+    "model": "openai/gpt-5.6-sol",
+    "effort": "xhigh",
+    "score": 95,
+    "path": "responses/openai/gpt-5.6-sol/xhigh.md",
+    "haiku": [
+      "Woodchuck flings the oak",
+      "Seven hundred pounds go by",
+      "Spring laughs at the math"
+    ],
+    "pirate": "Arrr, one burrow's worth be about 700 pounds, or 320 kilograms, of timber moved piece by piece; real woodchucks chuck earth, not oak."
+  },
+  {
+    "model": "openai/gpt-5.6-terra-pro",
+    "effort": "high",
+    "score": 97,
+    "path": "responses/openai/gpt-5.6-terra-pro/high.md",
+    "haiku": [
+      "Woodchuck might shift logs",
+      "Burrow’s worth, seven hundred",
+      "Pounds in legend’s shade"
+    ],
+    "pirate": "Arrr, if a groundhog could move timber as it digs earth, reckon near 700 lb, or 318 kg, matey—though the true haul could range from 300 to 1,500 lb."
+  },
+  {
+    "model": "openai/gpt-5.6-terra-pro",
+    "effort": "low",
+    "score": 93,
+    "path": "responses/openai/gpt-5.6-terra-pro/low.md",
+    "haiku": [
+      "Burrow moonlight falls",
+      "Chuck what roots will let him move",
+      "Seven hundred pounds"
+    ],
+    "pirate": "Arrr, a woodchuck that could chuck wood might shift about 700 pounds, or 318 kilograms, by the old burrow-dirt reckoning."
+  },
+  {
+    "model": "openai/gpt-5.6-terra-pro",
+    "effort": "max",
+    "score": 97,
+    "path": "responses/openai/gpt-5.6-terra-pro/max.md",
+    "haiku": [
+      "Moonlit paws toss loam",
+      "The logs wait beyond small claws",
+      "Dreams move logs, not paws"
+    ],
+    "pirate": "Arrr, the old reckonin' says 700 lb or 320 kg o' wood, but a full 35 ft3 burrow-volume of dry hardwood be nearer 1,310 lb or 595 kg. The beast digs dirt, not timber."
+  },
+  {
+    "model": "openai/gpt-5.6-terra-pro",
+    "effort": "medium",
+    "score": 92,
+    "path": "responses/openai/gpt-5.6-terra-pro/medium.md",
+    "haiku": [
+      "Burrower flings chips",
+      "Almost one cubic metre",
+      "Wood waits in the grove"
+    ],
+    "pirate": "Arrr, the burrowing beast might chuck near one cubic metre—about 1,300 pounds—of timber, if dirt-moving counted as wood-chucking."
+  },
+  {
+    "model": "openai/gpt-5.6-terra-pro",
+    "effort": "none",
+    "score": 80,
+    "path": "responses/openai/gpt-5.6-terra-pro/none.md",
+    "haiku": [
+      "Groundhog lifts bark—",
+      "If paws could master timber,",
+      "Seven hundred pounds."
+    ],
+    "pirate": "Arrr, if the little landlubber could chuck timber like it digs its burrow, it’d chuck about 700 pounds o’ wood—that be 318 kilograms, give or take a fair bit o’ sawdust."
+  },
+  {
+    "model": "openai/gpt-5.6-terra-pro",
+    "effort": "xhigh",
+    "score": 97,
+    "path": "responses/openai/gpt-5.6-terra-pro/xhigh.md",
+    "haiku": [
+      "Groundhog digs deep earth",
+      "In a world of cedar logs—",
+      "Seven hundred pounds."
+    ],
+    "pirate": "Arrr, the old reckonin' be 700 pounds, or 318 kilograms, of timber—if the groundhog could chuck wood as it digs dirt."
+  },
+  {
+    "model": "openai/gpt-5.6-terra",
+    "effort": "high",
+    "score": 95,
+    "path": "responses/openai/gpt-5.6-terra/high.md",
+    "haiku": [
+      "Groundhog eyes the logs",
+      "Burrow dust becomes timber",
+      "Seven hundred pounds"
+    ],
+    "pirate": "Arrr, if the burrowin' beast could fling timber as it flings earth, it would chuck about 700 pounds—318 kilograms—of wood, give or take a fair heap."
+  },
+  {
+    "model": "openai/gpt-5.6-terra",
+    "effort": "low",
+    "score": 86,
+    "path": "responses/openai/gpt-5.6-terra/low.md",
+    "haiku": [
+      "Groundhog digs deep earth",
+      "Logs remain philosophic—",
+      "Seven hundred pounds."
+    ],
+    "pirate": "Arrr, the beastie would chuck about 700 pounds, or 320 kilograms, of timber—if it had the inclination and proper lumber."
+  },
+  {
+    "model": "openai/gpt-5.6-terra",
+    "effort": "max",
+    "score": 97,
+    "path": "responses/openai/gpt-5.6-terra/max.md",
+    "haiku": [
+      "Groundhog dreams of wood",
+      "Burrow-sized pile in moonlight",
+      "Seven hundred pounds"
+    ],
+    "pirate": "Arrr, a burrow's worth o' dry timber be about 700 lb, or 318 kg, in many small bits—not one giant log."
+  },
+  {
+    "model": "openai/gpt-5.6-terra",
+    "effort": "medium",
+    "score": 98,
+    "path": "responses/openai/gpt-5.6-terra/medium.md",
+    "haiku": [
+      "Groundhog paws at logs",
+      "Almost one cubic meter",
+      "Winter keeps the rest"
+    ],
+    "pirate": "Arrr! The old answer be 700 pounds, or 318 kilograms; a whole burrow's volume of hardwood could weigh nearer 1,225 pounds, or 556 kilograms."
+  },
+  {
+    "model": "openai/gpt-5.6-terra",
+    "effort": "none",
+    "score": 94,
+    "path": "responses/openai/gpt-5.6-terra/none.md",
+    "haiku": [
+      "Groundhog digs deep earth",
+      "If logs lay loose in its path—",
+      "Three hundred kilos"
+    ],
+    "pirate": "Arrr, a woodchuck might chuck about 700 pounds, or 318 kilograms, of timber—if the wee beastie were built for lumber work."
+  },
+  {
+    "model": "openai/gpt-5.6-terra",
+    "effort": "xhigh",
+    "score": 97,
+    "path": "responses/openai/gpt-5.6-terra/xhigh.md",
+    "haiku": [
+      "Burrow at moonrise",
+      "Small logs fly, seven hundred",
+      "Pounds of pure mischief"
+    ],
+    "pirate": "Arrr, matey: about 700 pounds, or 318 kilograms, per burrow's worth o' labor—though without a time limit, the furry deckhand could chuck forever."
+  },
+  {
+    "model": "qwen/qwen3.7-max",
+    "effort": "default",
+    "score": 94,
+    "path": "responses/qwen/qwen3.7-max/default.md",
+    "haiku": [
+      "Marmota throws wood,",
+      "Seven hundred pounds of oak,",
+      "Winter sleep awaits."
+    ],
+    "pirate": "Arrr, ye scurvy dogs! If the furry bilge rat could toss timber, he'd heave seven hundred pounds of it, give or take a few planks, before passin' out in his bunk!"
+  },
+  {
+    "model": "x-ai/grok-4.5",
+    "effort": "high",
+    "score": 94,
+    "path": "responses/x-ai/grok-4.5/high.md",
+    "haiku": [
+      "Woodchuck dreams of logs",
+      "Flings three hundred kilos high",
+      "Burrow now forgotten"
+    ],
+    "pirate": "Arrr, matey! That crafty woodchuck'd heave a treasure of nigh three hundred an' eighteen kilograms—seven hundred pounds o' prime timber—if only the scurvy beast could chuck wood. So weigh anchor an' believe it… or walk the plank!"
+  },
+  {
+    "model": "x-ai/grok-4.5",
+    "effort": "low",
+    "score": 90,
+    "path": "responses/x-ai/grok-4.5/low.md",
+    "haiku": [
+      "Woodchuck dreams of trees—",
+      "Seven hundred pounds flung free",
+      "If jaws just could bite."
+    ],
+    "pirate": "Arrr! That lubber of a woodchuck’d fling near seven hundred pounds o’ timber overboard if the scurvy beast could only chuck wood, ye bilge rats!"
+  },
+  {
+    "model": "x-ai/grok-4.5",
+    "effort": "medium",
+    "score": 94,
+    "path": "responses/x-ai/grok-4.5/medium.md",
+    "haiku": [
+      "Woodchuck dreams of wood—",
+      "three hundred kilograms fly",
+      "if paws could only throw."
+    ],
+    "pirate": "Arrr, matey! If that scurvy woodchuck could chuck timber like it digs dirt, it’d fling a solid 700 pound o’ lumber—nigh on 318 kilos, give or take a hefty share o’ uncertainty—in a single day!"
+  },
+  {
+    "model": "z-ai/glm-5.2",
+    "effort": "high",
+    "score": 90,
+    "path": "responses/z-ai/glm-5.2/high.md",
+    "haiku": [
+      "Algonquian name,",
+      "Throwing timber all day long,",
+      "Four hundred eighty."
+    ],
+    "pirate": "Arrr! If the furry land-lubber could toss the ship's timber, he'd be hurlin' about a thousand pounds of the stuff before the sun sets over the seven seas! Savvy?"
+  },
+  {
+    "model": "z-ai/glm-5.2",
+    "effort": "xhigh",
+    "score": 90,
+    "path": "responses/z-ai/glm-5.2/xhigh.md",
+    "haiku": [
+      "Algonquian name,",
+      "If it could throw timber now,",
+      "Seventy cubic."
+    ],
+    "pirate": "Arrr, mateys! The furry land-lubber would heave near about 1.98 cubic meters (or 70 cubic feet) of timber if the gods gave it the arms to do so!"
+  }
+]

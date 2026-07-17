@@ -20,5 +20,9 @@ jobs:
         run: python -m unittest discover -v
       - name: Check Python syntax
         run: python -m compileall -q benchmark.py package_successes.py score_results.py
+      - name: Verify generated carousel data
+        run: |
+          python scripts/build_showcase.py
+          git diff --exit-code results/showcase.json
       - name: Verify public site links
         run: python scripts/check_site.py

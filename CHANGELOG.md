@@ -2,6 +2,14 @@
 
 All notable changes to Woodchuck are documented here.
 
+## [1.1.0.0] - 2026-07-17
+
+### Added
+
+- Put the exact benchmark prompt directly in the opening section.
+- Browse every published pirate summary and haiku in responsive, swipeable carousels.
+- Rebuild and verify carousel data from the published responses in CI.
+
 ## [1.0.0.0] - 2026-07-17
 
 ### Added
